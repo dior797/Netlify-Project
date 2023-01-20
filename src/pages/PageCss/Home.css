@@ -1,0 +1,69 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.Home-all{
+    position: relative;
+}
+.titlediv {
+    position: absolute;
+    font-size: .7vw;
+    font-family: 'Nanum Myeongjo', serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    color: whitesmoke;
+    text-align: center;
+    border: solid 5vw rgba(0, 0, 0, .001);
+    background: rgb(0, 0, 0, 0.44);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    border-radius: 3vw;
+}
+
+
+.title {
+    font-size: 400%;
+    font-family: 'Roboto Condensed', sans-serif;}
+
+.desc {
+    font-size: 170%;
+}
+
+#log {
+    margin-top: -5%;
+}
+
+.titlebut {
+    border-radius: 1.302vw;
+    background-color: #4CAF50;
+    border: none;
+    padding: .97vw 2.08vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+
+}
+
+.Home-title{
+
+}
+
+.Home-form{
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 700%;
+    }
+
+    .desc {
+        font-size: 300%;
+    }
+}
